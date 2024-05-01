@@ -226,6 +226,7 @@ function buttonClicked(button) {
 
     if(currentScene == scene1B){
         sandwich = false
+        scene2B.choices[1].node = scene4C
     }
 
     showScene(currentScene)
